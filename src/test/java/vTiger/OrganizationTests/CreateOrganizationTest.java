@@ -24,7 +24,7 @@ import vTiger.ObjectRepository.OrganizationPage;
 public class CreateOrganizationTest extends BaseClass {
 	
 	
-	@Test
+	@Test(groups = "SmokeSuite")
 	public void craeteOrganization() throws EncryptedDocumentException, IOException
 	{
 		

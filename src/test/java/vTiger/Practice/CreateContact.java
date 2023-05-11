@@ -99,6 +99,8 @@ public class CreateContact {
 		WebElement element = driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
 		wUtil.mouseHoverAction(driver, element);
 		driver.findElement(By.linkText("Sign Out")).click();
+		
+		System.out.println("====================");
 		System.out.println("==========Logout Sucessfully");
 	
 	}
